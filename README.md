@@ -54,5 +54,9 @@ Matplotlib and Seaborn: For data visualization.
 Jupyter Notebook: For interactive development and analysis.
 Pickle: For saving and loading models and other data objects.
 
+**PPP**
+https://docs.google.com/presentation/d/178v7TiIdxXEeY77qPhUNx4hxJFgdtN40MWnh_xNDoOU/edit?usp=sharing
+
 **Contact**
 If you have any questions or need further information, please feel free to contact me.
+E-mail: Sergii.Lebid@yahoo.com
