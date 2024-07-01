@@ -5,41 +5,34 @@
 This project involves developing a credit scoring model using machine learning techniques to predict the likelihood of a borrower defaulting on a loan. The process includes data preprocessing, feature selection, model training, evaluation, and optimization to achieve the best performance.
 
 Project Structure
-
+SLEBID_Scoring_Model_Development_June_2024.ipynb: code,
+scoring_functions.py: functions
+SLEBID_Scoring_Model_Development_June_2024.ipynb: presentation (PDF)
 README.md: This file, providing an overview of the project.
 
-**Data Preprocessing**
-The dataset is preprocessed to handle missing values, encode categorical variables, and scale numerical features. This is done using the data_preprocessing.py script in the scripts directory.
-
-**Feature Selection**
-We select features based on their correlation and importance as determined by a Gradient Boosting model. The feature selection process is detailed in the Jupyter notebooks within the notebooks directory. Specifically, the top 27 features are used based on their combined correlation and importance scores.
-
-**Model Training and Evaluation**
-The model is trained and evaluated using cross-validation techniques. We perform hyperparameter tuning using GridSearchCV to find the best parameters for the Gradient Boosting model. The process is implemented in the model_training.py script and the corresponding notebook.
-
-**Example Model Parameters:**
-Best Parameters: {'learning_rate': 0.05, 'max_depth': 3, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 100}
-Best Cross-Validation Accuracy: 0.7557
-Test Set Accuracy: 0.7433
-Model Application
-We demonstrate how to load the saved model and apply it to new data. The steps include data normalization and predictions using the trained model. The example is provided in the model_application.py script.
-
-**Threshold Optimization**
-We determine the optimal threshold for classification based on accuracy and cost considerations. The code for this is in the threshold_optimization.py script and associated notebook.
-
-Example Threshold Optimization:
-Cross-Validation Accuracy Scores: [0.78, 0.75, 0.775, 0.77, 0.74]
-Mean Cross-Validation Accuracy: 0.763
-Optimal Threshold Results:
-Precision (Class 1): 0.8167
-Recall (Class 1): 0.9614
-F1-Score (Class 1): 0.8832
-Cost: 69
-Results
-The results of the model evaluation, including accuracy, precision, recall, and cost, are stored in the results directory. Visualizations of the model's performance are also provided. For instance, the model using 27 features has shown high accuracy and low cost, making it an optimal choice.
-
-**Conclusion**
-The project demonstrates the development and application of a machine learning-based credit scoring model. The selected model, utilizing the top 27 features, shows high accuracy and low cost, making it a viable option for credit scoring purposes.
+Data Preprocessing Preprocessed the dataset by handling missing values, encoding categorical variables, and scaling numerical features.
+Feature Selection Selected relevant features based on their correlation and importance using a Gradient Boosting model.
+Model Training and Evaluation Trained and evaluated the model using cross-validation techniques to optimize its performance.
+Model Application Implemented the trained model for making predictions on new data.
+Threshold Optimization Determined optimal thresholds for classification to enhance model performance.
+Results Stored and visualized the outcomes of the model evaluation, focusing on its effectiveness with the selected features.
+After executing this code, the following files are saved in the repository:
+•	CSV File: german_credit.csv
+o	Format: CSV
+o	Contents: DataFrame german_credit data saved without indices.
+•	Model: gradient_boosting_model.pkl
+o	Format: Pickle (.pkl)
+o	Contents: Trained Gradient Boosting model for classification.
+•	Model Description File: model_description.txt
+o	Format: Text file (.txt)
+o	Contents: Description of the model and example predictions, including model parameters and class probabilities.
+•	Selected Features File: selected_features.pkl
+o	Format: Pickle (.pkl)
+o	Contents: List of selected features used in model training.
+•	Scaler File: standard_scaler.pkl
+o	Format: Pickle (.pkl)
+o	Contents: Trained Scaler object for data normalization.
+Note: All these files are essential for further use of the model and analysis of results within the credit scoring project.
 
 **Future Work**
 Further feature engineering and selection to improve model performance.
