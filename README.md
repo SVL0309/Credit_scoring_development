@@ -5,13 +5,13 @@
 This project involves developing a credit scoring model using machine learning techniques to predict the likelihood of a borrower defaulting on a loan. The process includes data preprocessing, feature selection, model training, evaluation, and optimization to achieve the best performance.
 
 # **Project Structure**
-SLEBID_Scoring_Model_Development_June_2024.ipynb: code,
+**SLEBID_Scoring_Model_Development_June_2024.ipynb**: code
 
-scoring_functions.py: functions
+**scoring_functions.py**: functions
 
-SLEBID_Scoring_Model_Development_June_2024.ipynb: presentation (PDF) [Presentation Slides](https://docs.google.com/presentation/d/178v7TiIdxXEeY77qPhUNx4hxJFgdtN40MWnh_xNDoOU/edit?usp=sharing)
+**SLEBID_Scoring_Model_Development_June_2024.ipynb: presentation (PDF)** [Presentation Slides](https://docs.google.com/presentation/d/178v7TiIdxXEeY77qPhUNx4hxJFgdtN40MWnh_xNDoOU/edit?usp=sharing)
 
-README.md: This file, providing an overview of the project.
+**README.md**: This file, providing an overview of the project.
 
 # **Steps**
 
