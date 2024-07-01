@@ -1,4 +1,4 @@
-# Credit_scoring_development
+
 ![Illustration](bank.jpg)
 # **Credit Scoring Model Development**
 **Overview**
