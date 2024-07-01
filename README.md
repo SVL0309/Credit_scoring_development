@@ -1,4 +1,5 @@
 # Credit_scoring_development
+![Illustration](https://github.com/jon/coolproject/raw/master/image/image.png)
 # **Credit Scoring Model Development**
 **Overview**
 This project involves developing a credit scoring model using machine learning techniques to predict the likelihood of a borrower defaulting on a loan. The process includes data preprocessing, feature selection, model training, evaluation, and optimization to achieve the best performance.
