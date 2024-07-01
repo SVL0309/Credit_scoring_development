@@ -44,7 +44,8 @@ The project demonstrates the development and application of a machine learning-b
 Further feature engineering and selection to improve model performance.
 Exploration of different machine learning algorithms.
 Implementation of more advanced techniques for handling imbalanced data.
-Tools and Technologies Used
+
+**Tools and Technologies Used**
 Python: Primary programming language for the project.
 Pandas: For data manipulation and analysis.
 NumPy: For numerical operations.
