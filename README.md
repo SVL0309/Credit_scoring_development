@@ -15,15 +15,15 @@ This project involves developing a credit scoring model using machine learning t
 
 # **Steps**
 
-**Data Preprocessing** Preprocessed the dataset by handling missing values, encoding categorical variables, and scaling numerical features.
+-**Data Preprocessing** Preprocessed the dataset by handling missing values, encoding categorical variables, and scaling numerical features.
 
-**Feature Selection** Selected relevant features based on their correlation and importance using a Gradient Boosting model.
+-**Feature Selection** Selected relevant features based on their correlation and importance using a Gradient Boosting model.
 
-**Model Training and Evaluation** Trained and evaluated the model using cross-validation techniques to optimize its performance.
+-**Model Training and Evaluation** Trained and evaluated the model using cross-validation techniques to optimize its performance.
 
-**Model Application** Implemented the trained model for making predictions on new data.
+-**Model Application** Implemented the trained model for making predictions on new data.
 
-**Threshold Optimization** Determined optimal thresholds for classification to enhance model performance.
+-**Threshold Optimization** Determined optimal thresholds for classification to enhance model performance.
 
 **Results** Stored and visualized the outcomes of the model evaluation, focusing on its effectiveness with the selected features.
 
