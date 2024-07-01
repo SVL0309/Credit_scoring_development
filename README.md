@@ -8,6 +8,7 @@ This project involves developing a credit scoring model using machine learning t
 SLEBID_Scoring_Model_Development_June_2024.ipynb: code,
 scoring_functions.py: functions
 SLEBID_Scoring_Model_Development_June_2024.ipynb: presentation (PDF) [Presentation Slides](https://docs.google.com/presentation/d/178v7TiIdxXEeY77qPhUNx4hxJFgdtN40MWnh_xNDoOU/edit?usp=sharing)
+
 README.md: This file, providing an overview of the project.
 
 # **Steps**
