@@ -11,14 +11,23 @@ This project involves developing a credit scoring model using machine learning t
 Developed a credit scoring model using machine learning techniques to predict the likelihood of a borrower defaulting on a loan. Leveraged a comprehensive stack of tools and libraries, including:
 
 **Data Manipulation and Analysis**: pandas, numpy
+
 **Data Visualization**: matplotlib.pyplot, seaborn, plotly.express
+
 **Machine Learning and Evaluation**: scikit-learn (Logistic Regression, Lasso, Ridge, ElasticNet, RandomForestClassifier, GradientBoostingClassifier, confusion_matrix, classification_report, accuracy_score, precision_score, precision_recall_curve, average_precision_score, roc_curve, roc_auc_score, StandardScaler, train_test_split, GridSearchCV, learning_curve, cross_val_score, SVC, KNeighborsClassifier, GaussianNB, MLPClassifier, KMeans), xgboost (XGBClassifier), lightgbm (LGBMClassifier), catboost (CatBoostClassifier)
+
 **Feature Importance and Model Interpretation**: shap, lime (lime.lime_tabular)
+
 **Handling Imbalanced Data**: imbalanced-learn (SMOTE)
+
 **Data Scraping**: BeautifulSoup, requests
+
 **Model Persistence**: joblib, pickle
+
 **Data Retrieval**: ucimlrepo
+
 **Tabular Data Display**: tabulate
+
 **Custom Scoring Functions**: custom functions for parsing data, calculating costs, evaluating models, and assessing model performance and feature importance
 
 This extensive toolkit ensured the robust development and thorough evaluation of the credit scoring model.
