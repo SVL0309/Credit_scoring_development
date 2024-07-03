@@ -22,6 +22,7 @@ The objective of this project is to develop a credit scoring model using machine
 ---
 
 **Outcomes**
+
 After executing this code, the following files are saved in the repository:
 
 | Name | Format | Contents |
@@ -62,23 +63,6 @@ Developed a credit scoring model using machine learning techniques to predict th
 - **Custom Scoring Functions**: custom functions for parsing data, calculating costs, evaluating models, and assessing model performance and feature importance
 
 This extensive toolkit ensured the robust development and thorough evaluation of the credit scoring model.
-
-
----
-
-# **Outcomes**
-After executing this code, the following files are saved in the repository:
-
-| Name | Format | Contents |
-|-----------------|-----------------|-----------------|
-| german_credit.csv |  CSV | DataFrame german_credit data saved without indices |
-| gradient_boosting_model.pkl | Pickle (.pkl) | Trained Gradient Boosting model used for credit scoring |
-| model_description.txt | Text file (.txt) | Detailed description of the credit scoring model, encompassing model parameters, selected features, feature importances, and example predictions with class probabilities|
-| selected_features.pkl | Pickle (.pkl) | List of selected features used in model training |
-| standard_scaler.pkl | Trained Scaler object for data normalization |
-
-
-**Note**: All these files are essential for further use of the model and analysis of results within the credit scoring project.
 
 ---
 
