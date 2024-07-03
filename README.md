@@ -99,7 +99,7 @@ After executing this code, the following files are saved in the repository:
 | Folder | File | Description |
 |-----------------|-----------------|-----------------|
 | Functions | scoring_functions.py |Python script containing scoring functions for evaluating model performance and analyzing data     |
-|Python  SLEBID_Scoring_Model_Development_June_2024.ipynb |Jupyter notebook - the process of cleaning, transforming, and analyzing the original data with visualizations, including data downloaded via web scraping.|
+|Python | SLEBID_Scoring_Model_Development_June_2024.ipynb |Jupyter notebook - the process of cleaning, transforming, and analyzing the original data with visualizations, including data downloaded via web scraping.|
 |PPT | SLEBID_Scoring_Model_Development_June_2024.pptx  |Project Presentation in PowerPoint Format [Presentation Slides](https://docs.google.com/presentation/d/178v7TiIdxXEeY77qPhUNx4hxJFgdtN40MWnh_xNDoOU/edit?usp=sharing)|
 ---
 
