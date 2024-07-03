@@ -31,7 +31,7 @@ After executing this code, the following files are saved in the repository:
 | gradient_boosting_model.pkl | Pickle (.pkl) | Trained Gradient Boosting model used for credit scoring |
 | model_description.txt | Text file (.txt) | Detailed description of the credit scoring model, encompassing model parameters, selected features, feature importances, and example predictions with class probabilities|
 | selected_features.pkl | Pickle (.pkl) | List of selected features used in model training |
-| standard_scaler.pkl | Trained Scaler object for data normalization |
+| standard_scaler.pkl | Pickle (.pkl) |Trained Scaler object for data normalization |
 
 
 **Note**: All these files are essential for further use of the model and analysis of results within the credit scoring project.
