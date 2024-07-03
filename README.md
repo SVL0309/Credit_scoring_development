@@ -58,7 +58,9 @@ This extensive toolkit ensured the robust development and thorough evaluation of
 - **Results** Stored and visualized the outcomes of the model evaluation, focusing on its effectiveness with the selected features.
 
 # **Outcomes**
+
 After executing this code, the following files are saved in the repository:
+
 •	**CSV File: german_credit.csv**
 
   o	Format: CSV
