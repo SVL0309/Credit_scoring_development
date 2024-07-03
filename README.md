@@ -34,16 +34,7 @@ This extensive toolkit ensured the robust development and thorough evaluation of
 
 ---
 
-# **Project Structure**
-
-**SLEBID_Scoring_Model_Development_June_2024.ipynb**: code
-
-**scoring_functions.py**: functions
-
-**SLEBID_Scoring_Model_Development_June_2024.ipynb: presentation (PDF)** [Presentation Slides](https://docs.google.com/presentation/d/178v7TiIdxXEeY77qPhUNx4hxJFgdtN40MWnh_xNDoOU/edit?usp=sharing)
-
-
-# **Steps**
+# **Project Steps**
 
 - **Data Preprocessing** Preprocessed the dataset by handling missing values, encoding categorical variables, and scaling numerical features.
 
@@ -60,6 +51,11 @@ This extensive toolkit ensured the robust development and thorough evaluation of
 # **Outcomes**
 
 After executing this code, the following files are saved in the repository:
+
+| Name | Format | Contents |
+|-----------------|-----------------|-----------------|
+| german_credit.csv |  CSV | DataFrame german_credit data saved without indices |
+| gradient_boosting_model.pkl | Pickle (.pkl) | Trained Gradient Boosting model used for credit scoring |
 
 •	**CSV File: german_credit.csv**
 
