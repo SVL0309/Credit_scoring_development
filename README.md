@@ -24,11 +24,11 @@ Developed a credit scoring model using machine learning techniques to predict th
 
 - **Model Persistence**: joblib, pickle
 
-**Data Retrieval**: ucimlrepo
+- **Data Retrieval**: ucimlrepo
 
-**Tabular Data Display**: tabulate
+- **Tabular Data Display**: tabulate
 
-**Custom Scoring Functions**: custom functions for parsing data, calculating costs, evaluating models, and assessing model performance and feature importance
+- **Custom Scoring Functions**: custom functions for parsing data, calculating costs, evaluating models, and assessing model performance and feature importance
 
 This extensive toolkit ensured the robust development and thorough evaluation of the credit scoring model.
 
@@ -48,6 +48,8 @@ This extensive toolkit ensured the robust development and thorough evaluation of
 
 - **Results** Stored and visualized the outcomes of the model evaluation, focusing on its effectiveness with the selected features.
 
+---
+
 # **Outcomes**
 After executing this code, the following files are saved in the repository:
 
@@ -60,39 +62,10 @@ After executing this code, the following files are saved in the repository:
 | standard_scaler.pkl | Trained Scaler object for data normalization |
 
 
-•	**CSV File: german_credit.csv**
-
-  o	Format: CSV
-  
-  o	Contents: DataFrame german_credit data saved without indices.
-  
-•	**Model: gradient_boosting_model.pkl**
-
-  o	Format: Pickle (.pkl)
-  
-  o	Contents: Trained Gradient Boosting model used for credit scoring.
-  
-•	**Model Description File: model_description.txt**
-
-  o	Format: Text file (.txt)
-  
-  o	Contents: Detailed description of the credit scoring model, encompassing model parameters, selected features, feature importances, and example predictions with class probabilities.
-  
-•	**Selected Features File: selected_features.pkl**
-
-  o	Format: Pickle (.pkl)
-  
-  o	Contents: List of selected features used in model training.
-  
-•	**Scaler File: standard_scaler.pkl**
-
-  o	Format: Pickle (.pkl)
-  
-  o	Contents: Trained Scaler object for data normalization.
-
 **Note**: All these files are essential for further use of the model and analysis of results within the credit scoring project.
 
 ---
+
 **Folder File Description**
 
 | Folder | File | Description |
@@ -100,6 +73,7 @@ After executing this code, the following files are saved in the repository:
 | Functions | scoring_functions.py |Python script containing scoring functions for evaluating model performance and analyzing data     |
 |Python | SLEBID_Scoring_Model_Development_June_2024.ipynb |Jupyter notebook - the process of cleaning, transforming, and analyzing the original data with visualizations, including data downloaded via web scraping.|
 |PPT | SLEBID_Scoring_Model_Development_June_2024.pptx  |Project Presentation in PowerPoint Format [Presentation Slides](https://docs.google.com/presentation/d/178v7TiIdxXEeY77qPhUNx4hxJFgdtN40MWnh_xNDoOU/edit?usp=sharing)|
+
 ---
 
 **Future Work**
