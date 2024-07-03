@@ -5,7 +5,7 @@
 
 **Objective:**
 
-The objective of this project is to develop a credit scoring model using machine learning techniques to predict the likelihood of a borrower defaulting on a loan. The project utilizes data from a financial institution's credit portfolio, sourced from publicly available sources ( [UC Irvine Machine Lerning Repository].(https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data) ). Key steps include:
+The objective of this project is to develop a credit scoring model using machine learning techniques to predict the likelihood of a borrower defaulting on a loan. The project utilizes data from a financial institution's credit portfolio, sourced from publicly available sources ( [UC Irvine Machine Lerning Repository](https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data) ). Key steps include:
 
 - **Data Preprocessing** Preprocessed the dataset by handling missing values, encoding categorical variables, and scaling numerical features.
 
