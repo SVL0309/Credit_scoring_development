@@ -49,13 +49,14 @@ This extensive toolkit ensured the robust development and thorough evaluation of
 - **Results** Stored and visualized the outcomes of the model evaluation, focusing on its effectiveness with the selected features.
 
 # **Outcomes**
-
 After executing this code, the following files are saved in the repository:
 
 | Name | Format | Contents |
 |-----------------|-----------------|-----------------|
 | german_credit.csv |  CSV | DataFrame german_credit data saved without indices |
 | gradient_boosting_model.pkl | Pickle (.pkl) | Trained Gradient Boosting model used for credit scoring |
+| model_description.txt | Text file (.txt) | Detailed description of the credit scoring model, encompassing model parameters, selected features, feature importances, and example predictions with class probabilities|
+
 
 •	**CSV File: german_credit.csv**
 
