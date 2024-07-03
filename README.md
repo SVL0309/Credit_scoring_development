@@ -81,15 +81,8 @@ Further feature engineering and selection to improve model performance.
 Exploration of different machine learning algorithms.
 Implementation of more advanced techniques for handling imbalanced data.
 
-**Tools and Technologies Used**
-Python: Primary programming language for the project.
-Pandas: For data manipulation and analysis.
-NumPy: For numerical operations.
-Scikit-learn: For machine learning algorithms and model evaluation.
-Matplotlib and Seaborn: For data visualization.
-Jupyter Notebook: For interactive development and analysis.
-Pickle: For saving and loading models and other data objects.
+---
 
 **Contact**
 If you have any questions or need further information, please feel free to contact me.
-E-mail: Sergii.Lebid@yahoo.com
+E-mail: **Sergii.Lebid@yahoo.com**
