@@ -2,8 +2,6 @@
 
 ![Illustration](bank.jpg)
 
-**Overview**
-This project involves developing a credit scoring model using machine learning techniques to predict the likelihood of a borrower defaulting on a loan. The process includes data preprocessing, feature selection, model training, evaluation, and optimization to achieve the best performance.
 
 **Objective:**
 
@@ -21,9 +19,24 @@ The objective of this project is to develop a credit scoring model using machine
 
 - **Results** Stored and visualized the outcomes of the model evaluation, focusing on its effectiveness with the selected features.
 
+---
 
+**Outcomes**
+After executing this code, the following files are saved in the repository:
+
+| Name | Format | Contents |
+|-----------------|-----------------|-----------------|
+| german_credit.csv |  CSV | DataFrame german_credit data saved without indices |
+| gradient_boosting_model.pkl | Pickle (.pkl) | Trained Gradient Boosting model used for credit scoring |
+| model_description.txt | Text file (.txt) | Detailed description of the credit scoring model, encompassing model parameters, selected features, feature importances, and example predictions with class probabilities|
+| selected_features.pkl | Pickle (.pkl) | List of selected features used in model training |
+| standard_scaler.pkl | Trained Scaler object for data normalization |
+
+
+**Note**: All these files are essential for further use of the model and analysis of results within the credit scoring project.
 
 ---
+
 **Technologies**: Python (pandas, numpy, matplotlib.pyplot, seaborn, scikit-learn, shap, lightgbm, joblib, plotly.express, pickle, BeautifulSoup, ucimlrepo, tabulate, imbalanced-learn, xgboost, catboost, lime)
 
 Developed a credit scoring model using machine learning techniques to predict the likelihood of a borrower defaulting on a loan. Leveraged a comprehensive stack of tools and libraries, including:
@@ -50,21 +63,6 @@ Developed a credit scoring model using machine learning techniques to predict th
 
 This extensive toolkit ensured the robust development and thorough evaluation of the credit scoring model.
 
----
-
-# **Project Steps**
-
-- **Data Preprocessing** Preprocessed the dataset by handling missing values, encoding categorical variables, and scaling numerical features.
-
-- **Feature Selection** Selected relevant features based on their correlation and importance using a Gradient Boosting model.
-
-- **Model Training and Evaluation** Trained and evaluated the model using cross-validation techniques to optimize its performance.
-
-- **Model Application** Implemented the trained model for making predictions on new data.
-
-- **Threshold Optimization** Determined optimal thresholds for classification to enhance model performance.
-
-- **Results** Stored and visualized the outcomes of the model evaluation, focusing on its effectiveness with the selected features.
 
 ---
 
