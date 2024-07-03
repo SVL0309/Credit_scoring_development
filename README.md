@@ -56,6 +56,8 @@ After executing this code, the following files are saved in the repository:
 | german_credit.csv |  CSV | DataFrame german_credit data saved without indices |
 | gradient_boosting_model.pkl | Pickle (.pkl) | Trained Gradient Boosting model used for credit scoring |
 | model_description.txt | Text file (.txt) | Detailed description of the credit scoring model, encompassing model parameters, selected features, feature importances, and example predictions with class probabilities|
+| selected_features.pkl | Pickle (.pkl) | List of selected features used in model training |
+| standard_scaler.pkl | Trained Scaler object for data normalization |
 
 
 •	**CSV File: german_credit.csv**
